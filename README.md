@@ -18,7 +18,7 @@ A modern, responsive **Virtual Car Showroom** website built using **HTML, CSS, a
 > Add screenshots of your homepage, cars page, and contact page here.
 
 ### Home Page
-![Home Page](images/homepage.png)
+![Home Page](images/home.png)
 
 ### Cars Page
 
