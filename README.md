@@ -22,7 +22,7 @@ A modern, responsive **Virtual Car Showroom** website built using **HTML, CSS, a
 
 ### Cars Page
 
-![Cars Page](images/cars.png)
+![Cars Page](images/Cars.png)
 
 ### 🚘 Car Details
 
@@ -34,7 +34,7 @@ A modern, responsive **Virtual Car Showroom** website built using **HTML, CSS, a
 
 ### 📞 Contact Page
 
-![Contact Page](images/contact.png)
+![Contact Page](images/Contact.png)
 Or display them side by side
 
 ---
