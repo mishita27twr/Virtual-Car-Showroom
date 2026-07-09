@@ -1,0 +1,355 @@
+/* ==========================
+   GOOGLE FONT
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f0f0f;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+    background:rgba(0,0,0,.85);
+    backdrop-filter:blur(12px);
+}
+
+.navbar{
+    width:100%;
+    max-width:1300px;
+    margin:auto;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(20px);
+
+    border-radius:50px;
+
+    margin-top:15px;
+
+    border:1px solid rgba(255,255,255,.15);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#ff3131;
+}
+
+.logo i{
+    margin-right:8px;
+}
+.logo{
+
+font-size:32px;
+
+font-weight:bold;
+
+color:#ff3131;
+
+animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+50%{
+
+transform:scale(1.08);
+
+}
+
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+    transition:.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active{
+    color:#ff3131;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+    animation:slider 18s infinite;
+    background-size:cover;
+    background-position:center;
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.55);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    width:90%;
+    max-width:800px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#ddd;
+    margin-bottom:35px;
+    line-height:1.8;
+}
+
+.btn{
+
+display:inline-block;
+
+padding:16px 42px;
+
+background:linear-gradient(45deg,#ff3131,#ff5f5f);
+
+border-radius:50px;
+
+color:white;
+
+font-weight:bold;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 10px 25px rgba(255,49,49,.5);
+
+}
+
+@keyframes slider{
+
+0%,30%{
+background-image:url("images/bmw.jpg");
+}
+
+35%,60%{
+background-image:url("images/audi.jpg");
+}
+
+65%,100%{
+background-image:url("images/lamborghini.jpg");
+}
+
+}
+
+/* ==========================
+   SECTION
+========================== */
+
+section{
+    padding:90px 10%;
+}
+
+section h2{
+
+font-size:42px;
+
+text-align:center;
+
+margin-bottom:50px;
+
+color:white;
+
+position:relative;
+
+}
+
+section h2::after{
+
+content:"";
+
+width:90px;
+
+height:4px;
+
+background:#ff3131;
+
+display:block;
+
+margin:15px auto;
+
+border-radius:10px;
+
+}
+
+/* ==========================
+   CAR CARDS
+========================== */
+
+.card{
+
+background:#191919;
+
+border-radius:22px;
+
+overflow:hidden;
+
+transition:.5s;
+
+box-shadow:0 15px 30px rgba(0,0,0,.45);
+
+cursor:pointer;
+
+}
+
+.card:hover{
+
+transform:translateY(-18px);
+
+box-shadow:0 0 40px crimson;
+
+}
+
+.card img{
+
+transition:.6s;
+
+}
+
+.card:hover img{
+
+transform:scale(1.08);
+
+}
+.feature-box{
+
+background:#191919;
+
+padding:40px;
+
+border-radius:20px;
+
+transition:.5s;
+
+}
+
+.feature-box:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 0 35px crimson;
+
+}
+footer{
+
+background:#050505;
+
+padding:70px 20px;
+
+text-align:center;
+
+margin-top:80px;
+
+}
+
+footer h3{
+
+font-size:30px;
+
+color:#ff3131;
+
+margin-bottom:15px;
+
+}
+
+.social i{
+
+font-size:22px;
+
+margin:12px;
+
+transition:.4s;
+
+cursor:pointer;
+
+}
+
+.social i:hover{
+
+transform:translateY(-6px);
+
+color:#ff3131;
+
+}
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#111;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#ff3131;
+
+border-radius:20px;
+
+}
