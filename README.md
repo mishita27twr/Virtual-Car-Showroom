@@ -10,7 +10,6 @@ A modern, responsive **Virtual Car Showroom** website built using **HTML, CSS, a
   </a>
 </p>
 
-**Website:** https://virtual-car-showroom-qjdc.vercel.app/ :contentReference[oaicite:0]{index=0}
 
 ---
 
