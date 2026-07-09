@@ -17,14 +17,25 @@ A modern, responsive **Virtual Car Showroom** website built using **HTML, CSS, a
 
 > Add screenshots of your homepage, cars page, and contact page here.
 
-Example:
+### Home Page
+![Home Page](images/homepage.png)
 
-```
-images/
-├── homepage.png
-├── cars.png
-└── contact.png
-```
+### Cars Page
+
+![Cars Page](images/cars.png)
+
+### 🚘 Car Details
+
+![Car Details](images/details.png)
+
+### ℹ️ About Page
+
+![About Page](images/about.png)
+
+### 📞 Contact Page
+
+![Contact Page](images/contact.png)
+Or display them side by side
 
 ---
 
